@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack -d --watch",
+    "dev": "webpack-dev-server --content-base src/client/",
     "build": "webpack -p"
   },
   "repository": {
@@ -24,11 +24,7 @@
     "babel-preset-es2015": "~6.18.0",
     "babel-preset-react": "~6.16.0",
     "lodash": "~4.17.2",
-    "webpack-dev-server": "~1.16.2"
-  },
-  "scripts": {
-	"dev": "webpack-dev-server --content-base src/client/",
-	"build" : "webpack -p"
+    "webpack-dev-server": "~1.16.2",
+    "redux": "~3.6.0"
   }
-	
 }
